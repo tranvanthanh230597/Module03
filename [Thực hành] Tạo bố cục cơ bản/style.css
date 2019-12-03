@@ -1,0 +1,56 @@
+#head{
+	height: 100px;
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	font-size: 50px;
+	margin: 20px 100px 10px 100px;
+}
+#head_link{
+	height: 50px;
+	font-size: 30px;
+	background-color: #7FFFD4;
+	margin: 10px 100px 10px 100px;
+}
+#main{
+	height: 500px;
+	background-color: #B0E0E6;
+	font-size: 50px;
+	margin: 10px 100px 10px 100px;
+}
+#footer{
+	height:100px;
+	background-color: #FFF5EE;
+	font-size: 50px;
+	margin: 10px 100px 10px 100px;
+}
+#left{
+	background-color: #FFFF00;
+	width: 30%;
+	height: 97%;
+	float: left;
+	margin: 0.5%;
+	}
+#content{
+	background-color: #9ACD32;
+	width: 37%;
+	height: 97%;
+	float: left;
+	margin: 0.5%;
+}
+#right{
+	background-color: #40E0D0;
+	height: 97%;
+	width: 30%;
+	float: left;
+	margin: 0.5%;
+}
+#logo{
+	width: 30%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+#banner{
+	float: left;
+	width: 70%;
+	height: 100%;
+}
