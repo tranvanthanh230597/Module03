@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+}
+#header{
+  height: 100px;
+}
+#logo{
+  width: 20%;
+  background-image: linear-gradient(red, blue);  
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  height: 100%;
+  float: left;
+}
+#formFind{
+  font-size: 40px;
+  width: 80%;
+  height: 100%;
+  text-align: right;
+  float: left;
+}
+#menuTop{
+  height: 50px;  
+}
+#menuTop ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+
+#menuTop li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 12%;
+  height: 50px;
+  float: left;
+}
+
+#menuTop li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#menuTop li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+input[type=text] {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+#menuleft ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+}
+
+#menuleft li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#menuleft li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#menuleft li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+#main{
+  margin-top: 10px;
+  height: 800px;
+}
+#menuleft{
+  width: 12%;
+  float: left;
+  height: 100%;
+  margin: 0.5% 0 0.5% 0;
+}
+#content{
+  background-color: blue;
+  width: 87%;
+  height: 100%;
+  float: left;
+  margin: 0.5%;
+}
+#content .row{
+  height: 49%;
+  margin: 0.5%;
+  background-color: red;
+}
+#content .row .col{
+  width: 18%;
+  margin: 1%;
+  background-color: white;
+  float: left;
+  height: 93%;
+}
